@@ -1,0 +1,119 @@
+.header {
+    width: 100%;
+    height: auto;
+    box-shadow: 2px 2px 2px  black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    overflow: hidden;
+   
+
+    
+}
+
+.header img{
+    cursor: pointer;
+    padding: 20px;
+
+}
+.h22 nav{
+ width: 100vw;
+ display: flex;
+ justify-content: flex-start;
+ 
+ 
+ 
+}
+.h22{
+    height: 50px;
+    display: flex;
+  
+    
+    align-items: center;
+}
+.h11 {
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+   
+    
+    
+}
+
+
+.header input{
+   width:300px;
+   height: 40px;
+   border: none;
+   border-radius: 10px;
+   background-color: rgb(211, 211, 211, 0.3 );
+}
+
+
+.header span{
+    font-size:25px;
+    font-weight: bold;
+
+
+    
+}
+.header span:hover{
+    font-size:30px;
+    transition: 0.5s;
+    cursor:pointer;
+    font-weight: bold;
+}
+.header a{
+    font-size: 20px;
+    color: #C92071;
+    padding: 15px;
+    
+}
+
+.header a:hover{
+    transition: 0.1s;
+    font-size: 22px;
+    color:#C92071;
+   
+}
+.headerbutton{
+    cursor: pointer;
+    text-decoration:none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: transparent;
+    font-size:20px;
+    width:130px;
+    height: 35px;
+}
+.headerbutton:hover{
+    transition: 3s;
+    text-decoration:underline;
+}
+.headerbutton2{
+    background-color: #C92071;
+    cursor: pointer;
+    text-decoration:none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    color: white;
+    font-size:20px;
+    width:130px;
+    height: 35px;
+}
+.div_cart{
+    height: 80px;
+    width: px;
+    
+}
+.cart{
+    height: 100%;
+    width: 100%;
+}
