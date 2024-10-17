@@ -6,12 +6,6 @@
     color: white;
     display: flex;
     flex-direction: column;
-    
-    
-  
-   
-
-    
 }
 
 .header img{
@@ -19,7 +13,7 @@
    
 
 }
-.h22 nav{
+.hea_2 nav{
  width: 100vw;
  display: flex;
  justify-content: flex-start;
@@ -27,22 +21,19 @@
  
  
 }
-.h22{
+.hea_2{
     height: 50px;
     display: flex;
   
     
     align-items: center;
 }
-.h11 {
+.hea_1 {
     width: 100vw;
-    height: 50px;
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-   
-    
-    
 }
 
 .header_img{
@@ -73,13 +64,7 @@
 }
 
 
-.header span{
-    font-size:25px;
-    font-weight: bold;
 
-
-    
-}
 
 .header a{
     font-size: 15px;
@@ -90,7 +75,7 @@
 
 .header a:hover{
     transition: 0.1s;
-    font-size: 16px;
+    font-size: 15.3px;
     color:#C92071;
     text-decoration:underline; 
    
@@ -101,9 +86,9 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    color: black;
+    color: rgb(158, 147, 147);
     background-color: transparent;
-    font-size:20px;
+    font-size:17px;
     width:130px;
     height: 35px;
 }
@@ -120,9 +105,14 @@
     justify-content: center;
     border-radius: 10px;
     color: white;
-    font-size:20px;
+    font-size:17px;
     width:130px;
     height: 35px;
+}
+.headerbutton2:hover{
+    transition: 0.1s;
+    
+    font-size: 18px;
 }
 .div_cart{
     height: 100px;
