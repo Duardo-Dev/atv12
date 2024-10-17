@@ -45,13 +45,31 @@
     
 }
 
+.header_img{
+    width: 200px;
+    height: 30px;
+}
+.header_img:hover{
+    transition: 0.3s;
+    height: 33px;
 
+}
 .header input{
+   background-image: url("https://cdn-icons-png.flaticon.com/128/2319/2319177.png");
+   background-repeat: no-repeat;
+   background-position: right;
+   background-size: 1.5rem;
+   background-position-x: 95%;
+   color: black;
    width:600px;
    height: 40px;
    border: none;
    border-radius: 10px;
-   background-color: rgb(211, 211, 211, 0.3 );
+   background-color: rgb(211, 211, 211, 0.2 );
+}
+.header input:hover{
+    transition:0.3s;
+    background-color: rgb(211, 211, 211, 0.4     );
 }
 
 
@@ -62,23 +80,19 @@
 
     
 }
-.header span:hover{
-    font-size:30px;
-    transition: 0.5s;
-    cursor:pointer;
-    font-weight: bold;
-}
+
 .header a{
-    font-size: 20px;
-    color: #C92071;
+    font-size: 15px;
+    color: rgb(158, 147, 147);
     padding: 15px;
     
 }
 
 .header a:hover{
     transition: 0.1s;
-    font-size: 22px;
+    font-size: 16px;
     color:#C92071;
+    text-decoration:underline; 
    
 }
 .headerbutton{

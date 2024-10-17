@@ -8,9 +8,9 @@ function Header(){
       <header className={styles.header}>
            
             <div className={styles.h11}>
-           
-              <img src ={img} alt='IMG'></img>
-              <input type='text'></input>
+             
+              <img src ={img}  className={styles.header_img}  alt='IMG'></img>  
+              <input type='text' placeholder='Pesquisar produto...'></input>
                 <label className={styles.headerbutton}>Cadastrar</label>
                 <label className={styles.headerbutton2}>Entrar</label >
                 <div className={styles.div_cart}>
