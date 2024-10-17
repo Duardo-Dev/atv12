@@ -1,6 +1,7 @@
 import styles from './Header.module.css'
 import img from  '../Header/img/logo-header.svg'
 import cart from '../Header/img/mini-cart.svg'
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -20,12 +21,12 @@ function Header(){
            
             </div>
             <div className={styles.hea_2}>
-              <nav>
+              
             <a href=''>Home</a>
             <a href=''>Produtos</a>
             <a href=''>Categorias</a>
             <a href=''>Meus Pedidos</a>
-            </nav>
+            
             </div>
       </header>
     )
