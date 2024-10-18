@@ -1,13 +1,13 @@
 import React,{useState, useEffect} from 'react';
-import style from '../Navbar/styles.module.css'
+import styles from '../Header/Header.module.css'
 
- function lista(){
+ function Lista(){
     const [tenis, setTenis] = useState([]);
     useEffect(() =>{
 
       async function carregartenis(){
        let response = await fetch('https://api-store-do1w.onrender.com/shoes')
-       let data = response.json();
+       let data = await response.json();
        setTenis(data);
 
       }
@@ -21,7 +21,7 @@ import style from '../Navbar/styles.module.css'
       <ul>
         {tenis.map(tenis =>(
             <li>
-            <img src={tenis.imagem_url} alt='tenis'></img>
+            <img  className = {styles.img} src={tenis.imagem_url} alt='tenis'></img>
             </li>
         ))}
         
@@ -32,4 +32,4 @@ import style from '../Navbar/styles.module.css'
     );
   
   }
-  export default lista;
+  export default Lista;

@@ -2,7 +2,6 @@
 .header {
     width: 100%;
     height: auto;
-    
     justify-content: center;
     color: white;
     display: flex;
@@ -15,21 +14,16 @@
 
 }
 .hea_2{
- width: 100vw;
+ width: 100%;
  display: flex;
+
  justify-content: flex-start;
- 
- 
+ height: 40px;
+ gap: 40px;
  
  
 }
-.hea_2{
-    height: 50px;
-    display: flex;
-  
-    
-    align-items: center;
-}
+
 .hea_1 {
     width: 100vw;
     height: 70px;
@@ -48,14 +42,15 @@
 
 }
 .header input{
+
    background-image: url("https://cdn-icons-png.flaticon.com/128/2319/2319177.png");
    background-repeat: no-repeat;
    background-position: right;
-   background-size: 1.5rem;
+   background-size: 2rem;
    background-position-x: 95%;
    color: black;
    width:700px;
-   height: 40px;
+   height: 40px;    
    border: none;
    border-radius: 10px;
    background-color: rgb(211, 211, 211, 0.3 );
@@ -72,7 +67,7 @@
 .header a{
     font-size: 15px;
     color: rgb(158, 147, 147);
-    width: 150px;
+    
     display: flex;
     justify-content: space-evenly;
     
@@ -115,9 +110,9 @@
     height: 35px;
 }
 .headerbutton2:hover{
-    transition: 0.1s;
-    
-    font-size: 18px;
+        transition: 0.1s;
+        
+        font-size: 18px;
 }
 .div_cart{
     height: 100px;
@@ -133,4 +128,8 @@
 .cart:hover{
     transition: 0.2s;
     height: 35%;
+}
+ul img{
+    width: 300px;
+   
 }

@@ -3,6 +3,7 @@ import img from  '../Header/img/logo-header.svg'
 import cart from '../Header/img/mini-cart.svg'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'react-router-dom';
 
 
 function Header(){
@@ -14,7 +15,7 @@ function Header(){
               <img src ={img}  className={styles.header_img}  alt='IMG'></img>  
               <input type='text' placeholder='Pesquisar produto...'></input>
                 <label className={styles.headerbutton}>Cadastra-se</label>
-                <label className={styles.headerbutton2}>Entrar</label >
+                <Link to ='/login' className={styles.headerbutton2}>Entrar</Link >
                 <div className={styles.div_cart}>
                 <img  src={cart}  className={styles.cart}  alt='carrinho'></img>
                 </div>
@@ -22,8 +23,8 @@ function Header(){
             </div>
             <div className={styles.hea_2}>
               
-            <a href=''>Home</a>
-            <a href=''>Produtos</a>
+            <Link to ='/home'>Home</Link>
+            <a href='/'>Produtos</a>
             <a href=''>Categorias</a>
             <a href=''>Meus Pedidos</a>
             
